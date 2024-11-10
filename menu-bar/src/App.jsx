@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import MenuBar from './MenuBar'
+import { useState} from "react";
+import Home from './pages/Home'
+
 
 function App() {
 
+
+
   return (
-    <>
-     <MenuBar />
-    </>
+    <div className="w-full h-screen  bg-neutral-300 ">
+      <Home />
+    </div>
+    
   )
 }
 
